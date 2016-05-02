@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OrderMachine
 {
     public class Order
     {
+        public IEnumerable<OrderItem> OrderItems { get; set; } 
         public DateTime Placed { get; set; }
         public string OtherInfo { get; set; }
         public Price GetPrice(IRateExchange exchange, IUserContext userContext)

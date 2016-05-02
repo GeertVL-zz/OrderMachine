@@ -5,12 +5,12 @@ using Xunit;
 
 namespace OrderMachine.Tests
 {
-    [Trait("OrderProcessor", "")]
+    [Trait("Category", "OrderProcessor")]
     public class OrderProcessorTests
     {
 
         [Fact(DisplayName = "Check if OrderProcessor is fast")]
-        public void SpecificationName()
+        public void CheckIfFast()
         {
             var stopwatch = new Stopwatch();
             stopwatch.Start();

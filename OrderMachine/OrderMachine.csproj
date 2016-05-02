@@ -47,28 +47,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CachingProductRepository.cs" />
     <Compile Include="Currency.cs" />
     <Compile Include="IAccountsReceivable.cs" />
+    <Compile Include="ICache.cs" />
     <Compile Include="IOrderCollector.cs" />
     <Compile Include="IOrderProcessor.cs" />
     <Compile Include="IOrderShipper.cs" />
     <Compile Include="IOrderShipperFactory.cs" />
     <Compile Include="IOrderValidator.cs" />
+    <Compile Include="IProductRepository.cs" />
     <Compile Include="IRateExchange.cs" />
+    <Compile Include="IStopwatch.cs" />
+    <Compile Include="ITimer.cs" />
     <Compile Include="IUserContext.cs" />
     <Compile Include="LazyOrderShipper.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderCollector.cs" />
+    <Compile Include="OrderItem.cs" />
     <Compile Include="OrderProcessor.cs" />
     <Compile Include="OrderShipper.cs" />
     <Compile Include="OrderShipperFactory.cs" />
     <Compile Include="OrderValidator.cs" />
+    <Compile Include="PerformanceMeasuringProductRepository.cs" />
     <Compile Include="Price.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RateExchange.cs" />
     <Compile Include="StockRateExchange.cs" />
     <Compile Include="SuccessResult.cs" />
+    <Compile Include="TopViewModel.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
