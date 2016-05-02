@@ -66,6 +66,8 @@
     <Compile Include="Price.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RateExchange.cs" />
+    <Compile Include="StockRateExchange.cs" />
     <Compile Include="SuccessResult.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
