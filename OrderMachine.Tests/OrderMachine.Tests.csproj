@@ -66,11 +66,16 @@
     <Compile Include="OrderProcessorTests.cs" />
     <Compile Include="ProductRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlReaderHelperTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OrderMachine.Data\OrderMachine.Data.csproj">
+      <Project>{31de974e-bd86-4fd8-9f28-3194855ed21c}</Project>
+      <Name>OrderMachine.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OrderMachine\OrderMachine.csproj">
       <Project>{9787D0A1-5E2D-4DF2-A581-09543EEDC221}</Project>
       <Name>OrderMachine</Name>
